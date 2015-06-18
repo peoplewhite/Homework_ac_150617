@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>69591D67-302E-4D9C-9A1C-7E9546CB4C3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Homework_ac_150617</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>42F581F358D38A4046C7C0EFA59403F9C621A3B9</key>
+		<string>github.com:peoplewhite/Homework_ac_150617.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Homework_ac_150617.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>42F581F358D38A4046C7C0EFA59403F9C621A3B9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:peoplewhite/Homework_ac_150617.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>42F581F358D38A4046C7C0EFA59403F9C621A3B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42F581F358D38A4046C7C0EFA59403F9C621A3B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Homework_ac_150617</string>
+		</dict>
+	</array>
+</dict>
+</plist>
