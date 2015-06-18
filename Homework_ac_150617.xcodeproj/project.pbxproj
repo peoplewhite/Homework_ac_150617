@@ -15,6 +15,7 @@
 		4F5252EC1B314ECD00D8CBCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5252EA1B314ECD00D8CBCC /* LaunchScreen.xib */; };
 		4F5252F81B314ECE00D8CBCC /* Homework_ac_150617Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5252F71B314ECE00D8CBCC /* Homework_ac_150617Tests.m */; };
 		4F5253031B314F4900D8CBCC /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5253021B314F4900D8CBCC /* CollectionViewController.m */; };
+		4F84F2E31B32A171006D31D6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F84F2E21B32A171006D31D6 /* FirstViewController.m */; };
 		4F8A29C01B31661700C2E2B9 /* Out_CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A29BF1B31661700C2E2B9 /* Out_CollectionViewController.m */; };
 		4F8A29C31B31662800C2E2B9 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A29C21B31662800C2E2B9 /* CollectionViewCell.m */; };
 		4F8A29C61B31665700C2E2B9 /* View4Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8A29C51B31665700C2E2B9 /* View4Cell.xib */; };
@@ -47,6 +48,8 @@
 		4F5252F71B314ECE00D8CBCC /* Homework_ac_150617Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework_ac_150617Tests.m; sourceTree = "<group>"; };
 		4F5253011B314F4900D8CBCC /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		4F5253021B314F4900D8CBCC /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		4F84F2E11B32A171006D31D6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4F84F2E21B32A171006D31D6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		4F8A29BE1B31661700C2E2B9 /* Out_CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Out_CollectionViewController.h; path = ../Out_CollectionViewController.h; sourceTree = "<group>"; };
 		4F8A29BF1B31661700C2E2B9 /* Out_CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Out_CollectionViewController.m; path = ../Out_CollectionViewController.m; sourceTree = "<group>"; };
 		4F8A29C11B31662800C2E2B9 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = ../CollectionViewCell.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				4F5252E21B314ECD00D8CBCC /* ViewController.h */,
 				4F5252E31B314ECD00D8CBCC /* ViewController.m */,
 				4F5252E51B314ECD00D8CBCC /* Main.storyboard */,
+				4F84F2E11B32A171006D31D6 /* FirstViewController.h */,
+				4F84F2E21B32A171006D31D6 /* FirstViewController.m */,
 				4F8A29C71B31789F00C2E2B9 /* DetailViewController.h */,
 				4F8A29C81B31789F00C2E2B9 /* DetailViewController.m */,
 				4F5253011B314F4900D8CBCC /* CollectionViewController.h */,
@@ -258,6 +263,7 @@
 				4F5252DE1B314ECD00D8CBCC /* main.m in Sources */,
 				4F8A29C01B31661700C2E2B9 /* Out_CollectionViewController.m in Sources */,
 				4F8A29C91B31789F00C2E2B9 /* DetailViewController.m in Sources */,
+				4F84F2E31B32A171006D31D6 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

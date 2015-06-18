@@ -35,7 +35,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1084" y="271"/>
+            <point key="canvasLocation" x="1468" y="271"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="2cR-Hh-chQ">
+            <objects>
+                <viewController id="6w5-3F-RYD" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tva-mn-urg"/>
+                        <viewControllerLayoutGuide type="bottom" id="23h-rK-IQq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0ql-zS-ofh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJC-tm-IN8">
+                                <rect key="frame" x="137" y="269" width="47" height="30"/>
+                                <state key="normal" title="START">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnStart" destination="6w5-3F-RYD" eventType="touchUpInside" id="Ht6-sV-fiN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QM0-E9-1v9"/>
+                    <connections>
+                        <segue destination="4wl-uc-nbR" kind="push" identifier="change2Album" id="0iC-op-WWY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FyM-Mk-IAI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="562" y="263"/>
         </scene>
         <!--Out_Collection View Controller-->
         <scene sceneID="Gng-Te-v8K">
@@ -69,7 +102,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWG-tD-9au" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110" y="892"/>
+            <point key="canvasLocation" x="124" y="1052"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="6Z5-da-cHy">
@@ -113,7 +146,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ATK-Ib-gZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="634" y="263"/>
+            <point key="canvasLocation" x="1018" y="263"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4aE-DZ-uQo">
@@ -126,7 +159,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="4wl-uc-nbR" kind="relationship" relationship="rootViewController" id="aPO-E2-8td"/>
+                        <segue destination="6w5-3F-RYD" kind="relationship" relationship="rootViewController" id="CBe-HU-l73"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Jj-zR-eyB" userLabel="First Responder" sceneMemberID="firstResponder"/>
